@@ -7,9 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HotelComponent } from './hotel/hotel.component';
 import { RoomComponent } from './room/room.component';
 import { ReservationComponent } from './reservation/reservation.component';
-import { HotelserviceComponent } from './hotelservice/hotelservice.component';
-import { RoomserviceComponent } from './Service/roomservice/roomservice.component';
-import { ReservationserviceComponent } from './Service/reservationservice/reservationservice.component';
+import { HotelserviceComponent } from './Service/hotelservice/hotelservice.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +16,7 @@ import { ReservationserviceComponent } from './Service/reservationservice/reserv
     HotelComponent,
     RoomComponent,
     ReservationComponent,
-    HotelserviceComponent,
-    RoomserviceComponent,
-    ReservationserviceComponent
+    HotelserviceComponent
   ],
   imports: [
     BrowserModule,
