@@ -1,4 +1,3 @@
-import { single } from "rxjs";
 import { RoomType } from "./RoomType";
 
 export class Room{
